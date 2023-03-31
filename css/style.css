@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(0, 0, 0);
+  background-image: linear-gradient(45deg, black, rgb(37, 37, 37)); background-image: linear-gradient(top right, black, rgb(38, 38, 38));background-image: linear-gradient(90deg, black, rgb(34, 33, 33)); background-image: linear-gradient(225deg, black, rgb(35, 35, 35));;
 }
 h1{
   color: aliceblue;
@@ -8,13 +8,15 @@ h1{
 
 header{
   width: 100%;
-  background-color: rgb(45, 45, 45);
+  background-color: rgb(0, 0, 0);
 }
 
 .logo{
   text-align: center;
   color: aliceblue;
-  font-size: 1.5em;
+  width: 50%;
+  display: block;
+  margin: auto; 
 }
 
 nav{
@@ -29,12 +31,25 @@ nav{
 }
 
 .container{
-  background-color:rgb(46, 46, 46);
+  background-color:rgb(0, 0, 0);
   width: 80%;
   margin: auto;
 }
 
 footer{
-  background-color: rgb(46, 46, 46);
+  background-color: rgb(0, 0, 0);
   width: 100%;
+}
+
+article{
+  color: white;
+}
+p{
+  color: white;
+}
+
+.titleimage{
+width: 50%;
+display: block;
+margin: auto;
 }
