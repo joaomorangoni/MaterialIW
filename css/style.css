@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   background-image: url(../img/fundo4.jpg);
   background-position: center;
@@ -92,5 +96,10 @@ h3{
 }
 
 li{
+  font-size: 120%;
   line-height: 2;
+}
+
+.per{
+  width: 50%;
 }
