@@ -13,7 +13,7 @@ h1{
   font-weight: bold;
   color: rgb(255, 255, 255);
   text-align: center;
-  font-size: 175%;
+  font-size: 150%;
   padding-top: 1.5%;
   padding-bottom: 1.5%
 }
@@ -92,7 +92,7 @@ h3{
 }
 
 .key {
-  width: 10%;
+  width: 50%;
 }
 
 li{
@@ -102,4 +102,14 @@ li{
 
 .per{
   width: 50%;
+}
+
+.linha{
+  display: flex;
+  flex-flow:row wrap;
+  text-align: center;
+}
+
+.col-4{
+  width: 33.33%;
 }
