@@ -92,7 +92,7 @@ h3{
 }
 
 .key {
-  width: 50%;
+  width: 30%;
 }
 
 li{
@@ -112,4 +112,33 @@ li{
 
 .col-4{
   width: 33.33%;
+}
+
+.besouro{
+  text-align: center;
+  width: 3%;
+}
+
+a:link {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgba(116, 114, 114, 0.664);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(116, 114, 114, 0.664);
+  background-color: transparent;
+  text-decoration: underline;
 }
