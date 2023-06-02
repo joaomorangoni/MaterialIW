@@ -99,7 +99,7 @@ h3{
 }
 
 li{
-  font-size: 120%;
+  font-size: 110%;
   line-height: 2;
 }
 
@@ -147,7 +147,19 @@ a:active {
 }
 
 .float{
-  width: 15%;
+  width: 20%;
   float: right;
   height: 1%;
+}
+
+#Curiosidades{
+  font-size: 100%;
+}
+
+.meio {
+  text-align: center;
+}
+
+.video{
+  margin-left: 10%;
 }
