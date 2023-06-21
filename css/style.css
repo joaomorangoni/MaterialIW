@@ -179,22 +179,22 @@ a:active {
   transform: scale(90%);
 }
 
-#table{
+.table{
   width: 100%;
   font-family: monospace;
   border-collapse: collapse;
 }
 
-#table td, #table th {
+.table td, .table th {
   border: 1px solid rgb(58, 54, 54);
   padding: 8px;
 }
 
-#table tr:nth-child(even){background-color: #1f1e1e;}
+.table tr:nth-child(even){background-color: #222222;}
 
-#table tr:hover {background-color: rgb(68, 67, 67);}
+.table tr:hover {background-color: rgb(68, 67, 67);}
 
-#table th {
+.table th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
