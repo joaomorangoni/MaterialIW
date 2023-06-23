@@ -117,6 +117,11 @@ li{
   width: 33.33%;
 }
 
+.col-6{
+  width: 50%;
+  text-align: center;
+}
+
 .besouro{
   text-align: center;
   width: 3%;
@@ -200,4 +205,38 @@ a:active {
   text-align: left;
   background-color: #757272;
   color: rgb(255, 255, 255);
+}
+
+.topic{
+  margin-left: 4%;
+}
+
+.hidden{
+  list-style-image: url(../img/hiddendreams.png);
+}
+
+.grimm{
+  list-style-image: url(../img/grimmtroupe.png);
+}
+
+.lblood{
+  list-style-image: url(../img/lifeblood.png);
+}
+
+.god{
+  list-style-image: url(../img/godmaster.png);
+}
+
+.personagens{
+  width: 70%;
+}
+
+.dividir{
+  width: 65%;
+}
+
+h4{
+  font-style: italic;
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
