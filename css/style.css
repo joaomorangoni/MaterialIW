@@ -2,13 +2,21 @@ html{
   scroll-behavior: smooth;
 }
 
-body{
-  background-image: url(../img/fundo4.jpg);
-  background-position: center;
-  background-attachment: fixed;
-  background-size: 157%;
-  
+body {
+  background-color: #000000;
 }
+
+@media only screen and (min-device-width: 1800px) {
+  body{
+    background-image: url(../img/fundo4.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 157%;
+    
+  }
+}
+
+
 h1{
   font-weight: bold;
   color: rgb(255, 255, 255);
@@ -193,6 +201,7 @@ a:active {
 .table td, .table th {
   border: 1px solid rgb(58, 54, 54);
   padding: 8px;
+  font-size: 120%;
 }
 
 .table tr:nth-child(even){background-color: #222222;}
@@ -239,4 +248,9 @@ h4{
   font-style: italic;
   margin-bottom: 2%;
   margin-top: 2%;
+}
+
+audio{
+  color: #222222;
+  background-color: #222222;
 }
