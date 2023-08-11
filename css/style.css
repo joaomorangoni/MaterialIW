@@ -6,7 +6,7 @@ body {
   background-color: #000000;
 }
 
-@media only screen and (min-device-width: 1800px) {
+@media only screen and (min-device-width: 1200px) {
   body{
     background-image: url(../img/fundo4.jpg);
     background-position: center;
