@@ -6,7 +6,7 @@ body {
   background-color: #000000;
 }
 
-@media only screen and (min-device-width: 1200px) {
+@media only screen and (min-width: 1200px) {
   body{
     background-image: url(../img/fundo4.jpg);
     background-position: center;
@@ -15,6 +15,43 @@ body {
     
   }
 }
+@media only screen and (max-width: 600px) {
+  .logo{
+    display: block;
+    margin: auto;
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  header{
+    flex-direction: row;
+  }
+
+  .menu{
+    position: absolute;
+    right: 3%;
+    top: 30%;
+    width: 70%;
+
+  }
+
+  .menu ul li {
+    display: inline;
+    margin-left: 1%;
+  }
+
+  .banner{
+  }
+
+  .logo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: left;
+    width: 50%;
+  }
+}
+
 
 
 h1{
@@ -29,9 +66,10 @@ h1{
 header{
   width: 100%;
   background-color: rgb(0, 0, 0);
+  position: relative;
 }
 
-.logo{
+.img{
   text-align: center;
   color: aliceblue;
   width: 50%;
