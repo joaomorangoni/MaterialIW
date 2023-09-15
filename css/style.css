@@ -298,3 +298,29 @@ audio{
   width: 1.5%;
   text-align: center;
 }
+
+.borda_form{
+  background-color: rgba(39, 39, 39, 0.603) ;
+  padding: 20px;
+  border-radius: 25px;
+  margin-top: 1%;
+  box-sizing: border-box;
+  
+}
+label {
+  color: white;
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-family:monospace;
+}
+
+input[type=text], select, textarea, input[type=tel], input[type=email] {
+  width: 90%;
+  color: #7c7c7c;
+  padding: 12px;
+  border: 1px solid #292828;
+  border-radius: 15px;
+  resize: vertical;
+  font-family: monospace;
+  background-color: black;
+}
